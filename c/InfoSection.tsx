@@ -12,6 +12,7 @@ const InfoSection: React.FC<InfoSectionProps> = ({ children }) => {
         borderRadius: 8,
         zIndex: "2",
         maxWidth: 500,
+        color: "#F9F7F5",
       }}
     >
       {children}
