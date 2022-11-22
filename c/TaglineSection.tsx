@@ -9,6 +9,7 @@ const TaglineSection: React.FC = () => {
         padding: isDesktop ? 72 : 24,
         fontSize: 32,
         maxWidth: 600,
+        color: "#F9F7F5",
       }}
     >
       {/* A 12 Week Residency for the World's Most Promising Founders. */}A 12
