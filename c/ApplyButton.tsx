@@ -3,7 +3,7 @@ import * as React from "react";
 const ApplyButton: React.FC = () => {
   return (
     <a
-      href="https://partiful.com/e/sYBNObWTjOQTYo3d1uT3"
+      href="https://www.surveymonkey.com/r/QZRYL72"
       target="_blank"
       rel="noopener noreferrer"
     >

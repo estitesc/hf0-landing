@@ -33,8 +33,9 @@ export default function Landing() {
           <div
             style={{
               position: "absolute",
-              top: 110,
-              left: 140,
+              top: isDesktop ? 30 : 110,
+              // left: isDesktop ? 140 : 140,
+              right: isDesktop ? -140 : -140,
               overflow: "hidden",
               zIndex: "1",
             }}
@@ -42,15 +43,20 @@ export default function Landing() {
             <Image
               src="/transparent_orb.png"
               alt="cool planet thing"
-              width={370}
-              height={360}
+              width={isDesktop ? 670 : 370}
+              height={isDesktop ? 660 : 360}
               style={{ transform: "rotate(110deg)" }}
             />
           </div>
 
           <TaglineSection />
 
-          <div style={{ marginTop: 350 }}>
+          <div
+            style={{
+              marginTop: isDesktop ? 50 : 350,
+              marginLeft: isDesktop ? 48 : 0,
+            }}
+          >
             <InfoSection>
               <div style={{ fontStyle: "italic", marginBottom: 10 }}>
                 limited
@@ -100,7 +106,8 @@ export default function Landing() {
             <div
               style={{
                 border: "solid 1px white",
-                height: "15vh",
+                marginTop: isDesktop ? 72 : 0,
+                height: isDesktop ? "25vh" : "15vh",
                 width: 1,
               }}
             />

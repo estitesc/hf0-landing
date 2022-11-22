@@ -7,13 +7,13 @@ export default function WordMark() {
         fontSize: 48,
       }}
     >
-      <span style={{ color: "#181825" }}>H</span>
-      <span style={{ color: "#181825" }}>F</span>
-      <span style={{ color: "#181825", marginLeft: "-2px" }}>0</span>
-      <span style={{ color: "#C6CAD2", marginLeft: "10px", fontSize: 24 }}>
-        i
+      <span style={{ color: "#1A1A23" }}>H</span>
+      <span style={{ color: "#1A1A23" }}>F</span>
+      <span style={{ color: "#1A1A23", marginLeft: "-2px" }}>0</span>
+      <span style={{ color: "#9CA1AB", marginLeft: "10px", fontSize: 24 }}>
+        =
       </span>
-      <span style={{ color: "#C6CAD2", fontSize: 24 }}>s</span>
+      <span style={{ color: "#9CA1AB", fontSize: 24 }}>=</span>
     </div>
   );
 }
