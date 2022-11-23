@@ -5,6 +5,7 @@ import TaglineSection from "../c/TaglineSection";
 import useWindow from "../h/useWindow";
 import Image from "next/image";
 import ApplyButton from "../c/ApplyButton";
+import EmailForm from "../c/EmailForm";
 
 export default function Landing() {
   const { width, height, isDesktop } = useWindow();
@@ -20,6 +21,7 @@ export default function Landing() {
           position: "relative",
           display: "flex",
           flexDirection: "column",
+          color: "#F9F7F5",
         }}
       >
         <MarkBar />
@@ -59,7 +61,7 @@ export default function Landing() {
           >
             <InfoSection>
               <div style={{ fontStyle: "italic", marginBottom: 10 }}>
-                limited
+                founder centric
               </div>
               <div>2.5% program fee</div>
               <div>$250k SAFE</div>
@@ -67,7 +69,7 @@ export default function Landing() {
             </InfoSection>
             <InfoSection>
               <div style={{ fontStyle: "italic", marginBottom: 10 }}>
-                all-inclusive
+                all inclusive
               </div>
               <div>3 meals per day</div>
               <div>highly curated community</div>
@@ -111,7 +113,9 @@ export default function Landing() {
                 width: 1,
               }}
             />
-            <ApplyButton />
+            {/* <ApplyButton /> */}
+            <div style={{ marginTop: 24 }}>applications open Dec 18</div>
+            <EmailForm />
           </div>
           <div style={{ height: 60 }} />
         </div>
