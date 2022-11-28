@@ -12,8 +12,8 @@ const TaglineSection: React.FC = () => {
         color: "#F9F7F5",
       }}
     >
-      {/* A 12 Week Residency for the World's Most Promising Founders. */}A 12
-      week residency for the world&apos;s most promising founders.
+      {/* A 12 week residency for the world&apos;s most promising founders. */}A
+      12 week residency for the world&apos;s top technical founders
     </div>
   );
 };
