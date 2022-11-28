@@ -12,10 +12,14 @@ const EmailForm: React.FC = () => {
       <input
         style={{
           padding: "12px 12px",
+          borderTopRightRadius: 0,
+          borderBottomRightRadius: 0,
           borderTopLeftRadius: 8,
           borderBottomLeftRadius: 8,
           border: "none",
           backgroundColor: "#F9F7F5",
+          width: "40vw",
+          maxWidth: 200,
         }}
         id="email"
         type="email"
@@ -36,11 +40,13 @@ const EmailForm: React.FC = () => {
           borderBottomRightRadius: 8,
           color: "black",
           borderWidth: 0,
-          padding: "12px 36px",
+          padding: "12px 12px",
           cursor: "pointer",
+          width: "45vw",
+          maxWidth: 200,
         }}
       >
-        keep me posted
+        stay updated
       </button>
     </form>
   );
