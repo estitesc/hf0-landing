@@ -15,6 +15,7 @@ const EmailForm: React.FC = () => {
           borderTopLeftRadius: 8,
           borderBottomLeftRadius: 8,
           border: "none",
+          backgroundColor: "#F9F7F5",
         }}
         id="email"
         type="email"
