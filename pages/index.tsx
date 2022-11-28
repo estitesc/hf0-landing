@@ -55,11 +55,11 @@ export default function Landing() {
 
           <div
             style={{
-              marginTop: isDesktop ? 50 : 350,
+              marginTop: isDesktop ? 50 : 320,
               marginLeft: isDesktop ? 48 : 0,
             }}
           >
-            <InfoSection>
+            {/* <InfoSection>
               <div style={{ fontStyle: "italic", marginBottom: 10 }}>
                 founder centric
               </div>
@@ -81,7 +81,7 @@ export default function Landing() {
               </div>
               <div>feb 1</div>
               <div>in the heart of SF</div>
-            </InfoSection>
+            </InfoSection> */}
             {/* <InfoSection>
               <div>
                 we charge 2.5% and invest $250k into just 10 companies per batch
@@ -101,20 +101,22 @@ export default function Landing() {
             style={{
               width: "100vw",
               display: "flex",
-              alignItems: "center",
+              alignItems: "left",
               flexDirection: "column",
+              padding: isDesktop ? 72 : 24,
+              marginBottom: isDesktop ? 300 : 0,
             }}
           >
-            <div
+            {/* <div
               style={{
                 border: "solid 1px white",
                 marginTop: isDesktop ? 72 : 0,
                 height: isDesktop ? "25vh" : "15vh",
                 width: 1,
               }}
-            />
+            /> */}
             {/* <ApplyButton /> */}
-            <div style={{ marginTop: 24 }}>applications open Dec 18</div>
+            <div style={{ marginTop: 24 }}>Applications open Dec 18</div>
             <EmailForm />
           </div>
           <div style={{ height: 60 }} />
